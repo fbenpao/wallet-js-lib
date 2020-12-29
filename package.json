@@ -1,0 +1,49 @@
+{
+  "name": "wallet-js-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "myway",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "webpack -p --mode production",
+    "build-dev": "webpack -d --mode development"
+  },
+  "dependencies": {
+    "bip32": "2.0.5",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "5.2.0",
+    "bool-network-js": "0.3.2",
+    "ethereumjs-util": "7.0.5",
+    "ethereumjs-wallet": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "keythereum": "^1.0.4",
+    "web3": "^1.2.11",
+    "@openworklabs/filecoin-wallet-provider": "0.0.22",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "bignumber.js": "^9.0.0",
+    "blakejs": "^1.1.0",
+    "bls-lib": "^0.3.4",
+    "cids": "^0.7.3",
+    "elliptic": "^6.5.2",
+    "git": "^0.1.5",
+    "ipld-dag-cbor": "^0.15.1",
+    "remote": "^0.2.6",
+    "request": "^2.88.2",
+    "secp256k1": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@webpack-cli/info": "^0.2.0",
+    "@webpack-cli/init": "^0.3.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
